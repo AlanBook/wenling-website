@@ -364,8 +364,9 @@ section { padding: 100px 32px; }
   display: flex; flex-direction: column; align-items: center;
 }
 .donate-item img {
-  width: 180px; height: 180px; border-radius: 12px;
-  border: 1px solid var(--border); object-fit: cover;
+  width: auto; height: auto; max-width: 200px; max-height: 200px;
+  border-radius: 12px;
+  border: 1px solid var(--border); object-fit: contain;
   display: block; transition: transform 0.3s ease;
 }
 .donate-item img:hover {

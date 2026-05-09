@@ -321,32 +321,32 @@
   <!-- SECURITY & DEPLOY SECTION -->
   <section class="dark-section" id="deploy">
     <div class="section-header reveal">
-      <div class="label">安全与部署</div>
-      <h2>安全可靠，本地部署</h2>
-      <p>数据安全掌握在自己手中</p>
+      <div class="label">服务模式</div>
+      <h2>网页端服务 · 安全可靠</h2>
+      <p>无需本地部署，直接访问使用；也支持本地部署和定制开发</p>
     </div>
 
     <div class="feature-grid reveal">
       <div class="feature-card">
         <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h4>网页端服务</h4>
+        <p>无需下载安装，浏览器直接访问。研究者端和受访者端分离，数据安全隔离。</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
         </div>
         <h4>安全机制</h4>
-        <p>JWT认证、密码加密存储、API Key后端隔离、访问码一次性使用验证、环境变量配置。</p>
+        <p>JWT认证、密码加密存储、API Key后端隔离、访问码一次性使用验证。</p>
       </div>
       <div class="feature-card">
         <div class="icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
         </div>
-        <h4>数据存储</h4>
-        <p>SQLite数据库（轻量级）、本地文件存储（不上传云端）、上传图片本地存储、数据库自动迁移。</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-        </div>
-        <h4>启动方式</h4>
-        <p>Windows一键启动（start-all.bat）、PowerShell启动脚本、pnpm monorepo依赖管理、演示数据种子。</p>
+        <h4>本地部署</h4>
+        <p>支持本地私有化部署，数据完全掌控。定制开发十分容易，可洽谈合作。</p>
       </div>
     </div>
   </section>
@@ -356,22 +356,25 @@
     <div class="section-header reveal">
       <div class="label">快速上手</div>
       <h2>三步开始使用</h2>
-      <p>从启动系统到第一次访谈，只需几分钟</p>
+      <p>从访问系统到第一次访谈，只需几分钟</p>
     </div>
 
     <div class="step-cards reveal">
       <div class="step-card">
         <div class="step-number">1</div>
         <div class="step-content">
-          <h4>启动系统</h4>
-          <p>运行 <code>start-all.bat</code>（Windows）一键启动后端 + 研究者端 + 受访者端。或按文档分别启动三端服务。</p>
+          <h4>访问系统</h4>
+          <p>网页端直接访问，无需下载安装。<br>
+            <strong>研究者端：</strong> <a href="#" class="web-link" title="5.9晚间上线，敬请期待！">wenling-researcher.com</a><br>
+            <strong>受访者端：</strong> <a href="#" class="web-link" title="5.9晚间上线，敬请期待！">wenling-respondent.com</a>
+          </p>
         </div>
       </div>
       <div class="step-card">
         <div class="step-number">2</div>
         <div class="step-content">
           <h4>研究者登录</h4>
-          <p>访问研究者端需要注册，使用邀请码进行内测。首次使用会提示配置AI服务商或激活原生服务。原生服务因为需要调用开发者的API，需要一定费用。</p>
+          <p>访问研究者端需要注册，使用邀请码进行内测。首次使用会提示配置AI服务商或激活原生服务。</p>
         </div>
       </div>
       <div class="step-card">
@@ -385,76 +388,6 @@
 
     <div style="text-align: center; margin-top: 48px;" class="reveal">
       <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 16px;">最简单的方式：<strong style="color: var(--accent);">兑换码激活原生服务</strong>——无需任何API密钥配置，开箱即用</p>
-    </div>
-  </section>
-
-  <!-- API SECTION -->
-  <section class="dark-section">
-    <div class="section-header reveal">
-      <div class="label">API 接口</div>
-      <h2>完整的 API 支持</h2>
-      <p>RESTful API，易于集成和扩展</p>
-    </div>
-
-    <div class="api-section reveal">
-      <div class="api-group">
-        <h4>认证相关</h4>
-        <table class="api-table">
-          <thead>
-            <tr><th>端点</th><th>说明</th></tr>
-          </thead>
-          <tbody>
-            <tr><td><code>/api/auth/register</code></td><td>注册（含邀请码验证）</td></tr>
-            <tr><td><code>/api/auth/login</code></td><td>登录，返回 JWT</td></tr>
-            <tr><td><code>/api/auth/me</code></td><td>获取当前用户信息</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="api-group">
-        <h4>访谈管理</h4>
-        <table class="api-table">
-          <thead>
-            <tr><th>端点</th><th>说明</th></tr>
-          </thead>
-          <tbody>
-            <tr><td><code>/api/interviews</code></td><td>CRUD + 列表</td></tr>
-            <tr><td><code>/api/interviews/:id</code></td><td>详情 + 更新 + 删除</td></tr>
-            <tr><td><code>/api/interviews/:id/publish</code></td><td>发布访谈</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="api-group">
-        <h4>会话管理</h4>
-        <table class="api-table">
-          <thead>
-            <tr><th>端点</th><th>说明</th></tr>
-          </thead>
-          <tbody>
-            <tr><td><code>/api/sessions</code></td><td>创建会话</td></tr>
-            <tr><td><code>/api/sessions/:code</code></td><td>受访者访问码验证</td></tr>
-            <tr><td><code>/api/sessions/:id/answer</code></td><td>提交回答，AI生成下一轮</td></tr>
-            <tr><td><code>/api/sessions/:id/complete</code></td><td>结束访谈</td></tr>
-            <tr><td><code>/api/sessions/:id/result</code></td><td>获取结果</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="api-group">
-        <h4>智能体设置</h4>
-        <table class="api-table">
-          <thead>
-            <tr><th>端点</th><th>说明</th></tr>
-          </thead>
-          <tbody>
-            <tr><td><code>/api/settings</code></td><td>GET/PUT 智能体配置</td></tr>
-            <tr><td><code>/api/settings/test-connect</code></td><td>测试连通性</td></tr>
-            <tr><td><code>/api/settings/fetch-models</code></td><td>拉取模型列表</td></tr>
-            <tr><td><code>/api/settings/redeem</code></td><td>兑换码激活</td></tr>
-          </tbody>
-        </table>
-      </div>
     </div>
   </section>
 
@@ -495,29 +428,18 @@
   <section id="contact">
     <div class="section-header reveal">
       <div class="label">联系我们</div>
-      <h2>联系开发者 · 加入内测群</h2>
-      <p>获取最新动态、反馈使用体验、提出改进建议</p>
+      <h2>联系开发者</h2>
+      <p>添加微信入内测群、获取最新动态、反馈使用体验</p>
     </div>
-    <div class="reveal" style="display: flex; justify-content: center; gap: 64px; flex-wrap: wrap; max-width: 800px; margin: 0 auto;">
+    <div class="reveal" style="display: flex; justify-content: center; max-width: 400px; margin: 0 auto;">
       <!-- 联系开发者 -->
-      <div style="text-align: center; flex: 1; min-width: 240px;">
-        <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">联系开发者</h3>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">扫码添加微信，直接沟通</p>
+      <div style="text-align: center;">
+        <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">扫码添加微信</h3>
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">加开发者微信，备注「问灵」入内测群</p>
         <div class="donate-qr">
           <div class="donate-item">
             <img src="展示图片/wx.jpg" alt="开发者微信">
             <label>微信扫码添加</label>
-          </div>
-        </div>
-      </div>
-      <!-- 加入内测群 -->
-      <div style="text-align: center; flex: 1; min-width: 240px;">
-        <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">加入内测群</h3>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">与同行交流、获取最新版本</p>
-        <div class="donate-qr">
-          <div class="donate-item">
-            <img src="展示图片/wx.jpg" alt="内测群二维码">
-            <label>微信扫码入群</label>
           </div>
         </div>
       </div>
