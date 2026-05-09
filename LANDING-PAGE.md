@@ -12,7 +12,7 @@ wenling-website/
 ├── styles.css          # 样式表（CSS）
 ├── main.js             # 交互逻辑（JavaScript）
 ├── icon.png            # Logo 图标
-└── 展示图片/            # 功能截图
+└── assets/            # 功能截图
 ```
 
 ## 设计特点
@@ -38,12 +38,12 @@ wenling-website/
 
 ## 展示图片使用
 
-- `展示图片/interview-settings.png` - 设计访谈框架
-- `展示图片/interview-ui.png` - AI智能访谈
-- `展示图片/interview-manage.png` - 研究者管理端
-- `展示图片/agentsettings.png` - 智能体配置
-- `展示图片/user-dashboard.png` - 用户仪表板
-- `展示图片/profile.png` - 个人资料
+- `assets/interview-settings.png` - 设计访谈框架
+- `assets/interview-ui.png` - AI智能访谈
+- `assets/interview-manage.png` - 研究者管理端
+- `assets/agentsettings.png` - 智能体配置
+- `assets/user-dashboard.png` - 用户仪表板
+- `assets/profile.png` - 个人资料
 
 ## 如何预览
 

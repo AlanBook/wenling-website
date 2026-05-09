@@ -1,12 +1,12 @@
 # 问灵 Wenling - AI驱动的自动化访谈引擎
 
-![问灵Logo](展示图片/问灵Logo压缩页头.png)
+![问灵Logo](assets/logo.png)
 
 ## 项目简介
 
 **问灵 Wenling** 是面向社科研究者的AI访谈助手。研究者设计访谈框架，AI以人格化方式与受访者自然对话——倾听、回应、追问、过渡，像真人访谈者一样进行深度访谈。
 
-![访谈设置界面](展示图片/interview-settings.png)
+![访谈设置界面](assets/interview-settings.png)
 
 ## 核心功能
 
@@ -21,7 +21,7 @@
 
 ### 🤖 AI智能访谈
 
-![AI访谈界面](展示图片/interview-ui.png)
+![AI访谈界面](assets/interview-ui.png)
 
 AI以访谈者人格与受访者对话：自然开场、倾听回应、灵活追问、温暖收尾。后台实时记录每个预设目标的覆盖状态，三种模式的追问策略不同：
 
@@ -40,7 +40,7 @@ AI以访谈者人格与受访者对话：自然开场、倾听回应、灵活追
 
 ### 📊 研究者管理端
 
-![访谈管理界面](展示图片/interview-manage.png)
+![访谈管理界面](assets/interview-manage.png)
 
 完整的访谈生命周期管理：创建、发布、监控、分析。
 
@@ -51,7 +51,7 @@ AI以访谈者人格与受访者对话：自然开场、倾听回应、灵活追
 
 ### ⚙️ 智能体全局配置
 
-![智能体配置界面](展示图片/agentsettings.png)
+![智能体配置界面](assets/agentsettings.png)
 
 灵活的AI服务配置：原生服务兑换码激活，或自备API密钥接入主流模型。
 
@@ -85,13 +85,13 @@ AI以访谈者人格与受访者对话：自然开场、倾听回应、灵活追
 
 如果问灵对你的研究有帮助，欢迎支持开发者：
 
-![支付宝赞赏](展示图片/ali-pay.jpg) | ![微信赞赏](展示图片/wx-pay.jpg)
+![支付宝赞赏](assets/ali-pay.jpg) | ![微信赞赏](assets/wx-pay.jpg)
 
 ### 联系开发者
 
 添加微信入内测群、获取最新动态、反馈使用体验：
 
-![联系开发者](展示图片/wx.jpg)
+![联系开发者](assets/wx.jpg)
 
 > 扫码添加微信，备注「问灵」入内测群
 
@@ -101,7 +101,7 @@ AI以访谈者人格与受访者对话：自然开场、倾听回应、灵活追
 
 ### 研究者端
 
-![用户仪表板](展示图片/user-dashboard.png)
+![用户仪表板](assets/user-dashboard.png)
 
 完整的用户认证体系：注册、登录、个人资料管理。
 
@@ -112,7 +112,7 @@ AI以访谈者人格与受访者对话：自然开场、倾听回应、灵活追
 
 ### 受访者端
 
-![个人资料](展示图片/profile.png)
+![个人资料](assets/profile.png)
 
 无需注册，输入访问码即可开始访谈。
 
@@ -178,8 +178,8 @@ wenling-website/
 ├── main.js                 # 交互逻辑（JavaScript）
 ├── README.md               # 项目说明文档
 ├── LANDING-PAGE.md         # Landing Page设计说明
-├── 展示图片/                # 功能截图目录
-│   ├── 问灵Logo压缩页头.png # Logo图片
+├── assets/                # 功能截图目录
+│   ├── logo.png               # Logo图片
 │   ├── interview-settings.png   # 访谈设置界面
 │   ├── interview-ui.png         # AI访谈界面
 │   ├── interview-manage.png     # 访谈管理界面

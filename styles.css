@@ -401,6 +401,32 @@ footer a { color: var(--accent); text-decoration: none; }
   .feature-grid { grid-template-columns: 1fr; }
   .nav-links { display: none; }
   .feature-text h3 { font-size: 22px; }
+  .hero-badge { font-size: 12px; }
+  .hero { padding: 120px 20px 60px; }
+  .step-card { flex-direction: column; gap: 12px; }
+  .donate-qr { gap: 24px; }
+}
+@media (max-width: 480px) {
+  .hero h1 { font-size: 28px; letter-spacing: -0.5px; }
+  .hero p { font-size: 14px; }
+  .section-header h2 { font-size: 24px; }
+  .feature-text h3 { font-size: 18px; }
+  .btn-primary, .btn-secondary { padding: 10px 20px; font-size: 14px; }
+  .nav-logo { font-size: 16px; }
+  .nav-logo img { width: 20px; height: 20px; }
+}
+
+/* ===== MOBILE TOUCH OPTIMIZATION ===== */
+@media (hover: none) and (pointer: coarse) {
+  .feature-card:hover { transform: none; box-shadow: none; }
+  .feature-screenshot img:hover { transform: none; box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+  .btn-primary:hover { transform: none; box-shadow: none; }
+  .donate-item img:hover { transform: none; }
+}
+
+/* ===== iOS SAFETY ===== */
+@supports (-webkit-touch-callout: none) {
+  .hero { min-height: calc(100vh - 56px); }
 }
 
 /* ===== ANIMATIONS ===== */
