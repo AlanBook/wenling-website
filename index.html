@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>问灵 Wenling - AI驱动的自动化访谈系统</title>
+  <title>问灵 Wenling - AI驱动的自动化访谈引擎</title>
   <meta name="description" content="问灵是面向社科研究者的AI访谈助手：设计访谈框架，AI以人格化方式与受访者自然对话。支持三种访谈模式、数字人交互、多模态识别。">
   <meta name="keywords" content="AI访谈,自动化访谈,质性研究,社科研究,数字人,智能访谈者">
-  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="icon" href="展示图片/问灵Logo压缩页头.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
   <nav>
     <div class="nav-inner">
       <a href="#" class="nav-logo">
-        <img src="icon.png" alt="问灵">
+        <img src="展示图片/问灵Logo压缩页头.png" alt="问灵">
         问灵 <span>Wenling</span>
       </a>
       <div class="nav-links">
@@ -24,7 +24,8 @@
         <a href="#settings">配置</a>
         <a href="#results">结果</a>
         <a href="#deploy">部署</a>
-        <a href="#guide" class="nav-cta">快速上手</a>
+        <a href="#guide">指南</a>
+        <a href="#donate" class="nav-cta">支持我们</a>
       </div>
     </div>
   </nav>
@@ -36,7 +37,7 @@
       <div class="orb orb-2"></div>
       <div class="orb orb-3"></div>
     </div>
-    <div class="hero-badge">v1.0.0 · AI驱动的自动化访谈系统</div>
+    <div class="hero-badge">v1.0.0 · AI驱动的自动化访谈引擎</div>
     <h1>让AI成为你的<br><em>智能访谈者</em></h1>
     <p>面向社科研究者的AI访谈助手：设计访谈框架，AI以人格化方式与受访者自然对话——倾听、回应、追问、过渡，像真人访谈者一样</p>
     <div class="hero-actions">
@@ -370,7 +371,7 @@
         <div class="step-number">2</div>
         <div class="step-content">
           <h4>研究者登录</h4>
-          <p>访问研究者端，用演示账号（admin / 123456）登录。首次使用会提示配置AI服务商或激活原生服务。</p>
+          <p>访问研究者端需要注册，使用邀请码进行内测。首次使用会提示配置AI服务商或激活原生服务。原生服务因为需要调用开发者的API，需要一定费用。</p>
         </div>
       </div>
       <div class="step-card">
@@ -457,9 +458,75 @@
     </div>
   </section>
 
+  <!-- DONATE & SUPPORT -->
+  <section class="donate-section" id="donate">
+    <div class="section-header reveal">
+      <div class="label">支持我们</div>
+      <h2>让问灵持续成长</h2>
+      <p>如果问灵对你的研究有帮助，欢迎支持开发者</p>
+    </div>
+    <div class="reveal" style="display: flex; justify-content: center; gap: 64px; flex-wrap: wrap; max-width: 800px; margin: 0 auto;">
+      <!-- 左：支付宝 -->
+      <div style="text-align: center; flex: 1; min-width: 240px;">
+        <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">支付宝赞赏</h3>
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">扫码支持项目发展</p>
+        <div class="donate-qr">
+          <div class="donate-item">
+            <img src="展示图片/ali-pay.jpg" alt="支付宝收款码">
+            <label>支付宝扫码</label>
+          </div>
+        </div>
+      </div>
+      <!-- 右：微信 -->
+      <div style="text-align: center; flex: 1; min-width: 240px;">
+        <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">微信赞赏</h3>
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">请开发者喝杯咖啡</p>
+        <div class="donate-qr">
+          <div class="donate-item">
+            <img src="展示图片/wx-pay.jpg" alt="微信收款码">
+            <label>微信扫码</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & COMMUNITY -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <div class="label">联系我们</div>
+      <h2>联系开发者 · 加入内测群</h2>
+      <p>获取最新动态、反馈使用体验、提出改进建议</p>
+    </div>
+    <div class="reveal" style="display: flex; justify-content: center; gap: 64px; flex-wrap: wrap; max-width: 800px; margin: 0 auto;">
+      <!-- 联系开发者 -->
+      <div style="text-align: center; flex: 1; min-width: 240px;">
+        <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">联系开发者</h3>
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">扫码添加微信，直接沟通</p>
+        <div class="donate-qr">
+          <div class="donate-item">
+            <img src="展示图片/wx.jpg" alt="开发者微信">
+            <label>微信扫码添加</label>
+          </div>
+        </div>
+      </div>
+      <!-- 加入内测群 -->
+      <div style="text-align: center; flex: 1; min-width: 240px;">
+        <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">加入内测群</h3>
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">与同行交流、获取最新版本</p>
+        <div class="donate-qr">
+          <div class="donate-item">
+            <img src="展示图片/wx.jpg" alt="内测群二维码">
+            <label>微信扫码入群</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer>
-    <p>问灵 Wenling &copy; 2026 · AI驱动的自动化访谈系统</p>
+    <p>问灵 Wenling &copy; 2026 · AI驱动的自动化访谈引擎</p>
     <p style="margin-top: 6px;">
       私有项目，仅供研究与演示使用
     </p>

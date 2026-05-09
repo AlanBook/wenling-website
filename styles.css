@@ -355,6 +355,28 @@ section { padding: 100px 32px; }
   font-size: 12px; color: var(--accent);
 }
 
+/* ===== DONATE & CONTACT ===== */
+.donate-section { text-align: center; background: var(--bg-warm); }
+.donate-qr {
+  display: flex; justify-content: center; gap: 48px; flex-wrap: wrap;
+}
+.donate-item {
+  display: flex; flex-direction: column; align-items: center;
+}
+.donate-item img {
+  width: 180px; height: 180px; border-radius: 12px;
+  border: 1px solid var(--border); object-fit: cover;
+  display: block; transition: transform 0.3s ease;
+}
+.donate-item img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+.donate-item label {
+  display: block; margin-top: 12px;
+  font-size: 14px; color: var(--text-secondary); font-weight: 500;
+}
+
 /* ===== FOOTER ===== */
 footer {
   padding: 40px 32px; text-align: center;
