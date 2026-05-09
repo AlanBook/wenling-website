@@ -217,6 +217,29 @@ npx http-server -p 8080
 
 然后访问 `http://localhost:8080`
 
+---
+
+## 联名项目：拾卷 ShiJuan
+
+![拾卷官网](https://easyessay.com.cn)
+
+**拾卷** 是本地优先的智能文献管理工具，支持 PDF、HTML、EPUB、DOCX、TXT、Markdown 等多格式文件管理。
+
+### 核心功能
+- **阅读 · OCR · 注释**：选中即注释，OCR识别扫描版PDF
+- **AI 深度阅读**：每一句AI回答都能溯源到原文
+- **跨文献笔记**：从任意文献的注释中拖拽引用，串联成思考笔记
+- **召唤历史名人对话**：与苏格拉底、柏拉图、孔子等历史名人对话
+- **Hermes 学徒**：每周自动生成阅读观察报告
+
+访问拾卷官网：[https://easyessay.com.cn](https://easyessay.com.cn)
+
+---
+
+> 本网站设计借鉴自 [拾卷官网](https://easyessay.com.cn)
+
+---
+
 ## 许可证
 
 私有项目，仅供研究与演示使用。
