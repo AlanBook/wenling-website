@@ -20,52 +20,45 @@
       </a>
       <div class="nav-links">
         <a href="#features">功能</a>
-        <a href="#ai-engine">AI引擎</a>
-        <a href="#settings">配置</a>
         <a href="#results">结果</a>
-        <a href="#deploy">部署</a>
         <a href="#guide">指南</a>
-        <a href="https://easyessay.com.cn" target="_blank">拾卷</a>
         <a href="#donate" class="nav-cta">支持我们</a>
       </div>
     </div>
   </nav>
 
-  <!-- HERO -->
+  <!-- HERO - Full Screen with Background Image -->
   <section class="hero">
-    <div class="hero-bg">
-      <div class="orb orb-1"></div>
-      <div class="orb orb-2"></div>
-      <div class="orb orb-3"></div>
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">v1.0.0 · AI驱动的自动化访谈引擎</div>
+      <h1>问灵<br><em>Wenling AI</em></h1>
+      <p class="hero-lede">让AI成为你的智能访谈者</p>
+      <p class="hero-sub">面向社科研究者：设计访谈框架，AI以人格化方式与受访者自然对话——倾听、回应、追问、过渡，像真人访谈者一样</p>
+      <div class="hero-actions">
+        <a href="#guide" class="btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          快速上手
+        </a>
+        <a href="#features" class="btn-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          了解更多
+        </a>
+      </div>
     </div>
-    <div class="hero-badge">v1.0.0 · AI驱动的自动化访谈引擎</div>
-    <h1>让AI成为你的<br><em>智能访谈者</em></h1>
-    <p>面向社科研究者的AI访谈助手：设计访谈框架，AI以人格化方式与受访者自然对话——倾听、回应、追问、过渡，像真人访谈者一样</p>
-    <div class="hero-actions">
-      <a href="#guide" class="btn-primary">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        快速上手
-      </a>
-      <a href="#features" class="btn-secondary">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-        了解更多
-      </a>
+    <div class="scroll-indicator">
+      <span>探索功能</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5"/><path d="M7 6l5 5 5-5"/></svg>
     </div>
   </section>
 
-  <!-- HERO → FEATURES DIVIDER -->
-  <div class="hero-divider">
-    <div class="hero-divider-inner">
-      <span>探索功能</span>
-    </div>
-  </div>
-
-  <!-- FEATURE SHOWCASE -->
+  <!-- FEATURES (合并：核心功能 + AI引擎 + 配置) -->
   <section id="features">
     <div class="section-header reveal">
       <div class="label">核心功能</div>
       <h2>为深度访谈而生</h2>
-      <p>不只是投放问卷，更是构建真实的对话体验</p>
+      <p>从框架设计到AI对话，完整的访谈解决方案</p>
     </div>
 
     <div class="feature-row reveal">
@@ -73,13 +66,7 @@
         <div class="label">设计框架</div>
         <h3>设计访谈框架</h3>
         <p class="feature-lede">填写主题、描述、预设问题，选择访谈类型——结构化、半结构化或非结构化。</p>
-        <p class="feature-detail">你可以设置追问次数上限、超时时间、AI温度等参数，甚至自定义系统提示词模板来塑造AI访谈者的人格。</p>
-        <ul>
-          <li>创建访谈项目：主题、描述、预设问题</li>
-          <li>选择访谈类型：结构化/半结构化/非结构化</li>
-          <li>设置访谈参数：追问次数、超时、温度</li>
-          <li>系统提示词模板：内置或自定义AI人格</li>
-        </ul>
+        <p class="feature-detail">设置追问次数上限、超时时间、AI温度等参数，自定义系统提示词模板来塑造AI访谈者的人格。</p>
       </div>
       <div class="feature-screenshot">
         <img src="assets/interview-settings.png" alt="访谈设置界面" loading="lazy">
@@ -92,65 +79,34 @@
         <h3>AI智能访谈</h3>
         <p class="feature-lede">AI以访谈者人格与受访者对话：自然开场、倾听回应、灵活追问、温暖收尾。</p>
         <p class="feature-detail">后台实时记录每个预设目标的覆盖状态，三种模式的追问策略不同，确保访谈既有效率又有深度。</p>
-        <ul>
-          <li>结构化：严格按序，无追问</li>
-          <li>半结构化：任意顺序，每话题≤N次追问</li>
-          <li>非结构化：目标仅参考，自由探索≤M轮</li>
-        </ul>
       </div>
       <div class="feature-screenshot">
         <img src="assets/interview-ui.png" alt="AI访谈界面" loading="lazy">
       </div>
     </div>
 
-    <div class="feature-row reveal">
-      <div class="feature-text">
-        <div class="label">数字人</div>
-        <h3>科技国风数字人</h3>
-        <p class="feature-lede">受访者端展示可交互的SVG数字人，表情随访谈阶段自动变化。</p>
-        <p class="feature-detail">插画风格角色，淡蓝科技光效，呼吸起伏、眨眼、头部轻晃等微动画，营造温暖的访谈氛围。桌面端侧栏展示，移动端顶部横幅。</p>
-        <ul>
-          <li>表情切换：微笑、感兴趣、温暖、思考</li>
-          <li>微动画：呼吸起伏、眨眼、头部轻晃</li>
-          <li>淡蓝科技光效：下颌线、盘扣、发夹</li>
-          <li>响应式布局：桌面侧栏/移动端顶部</li>
-        </ul>
+    <!-- 三种访谈模式 -->
+    <div class="mode-cards reveal">
+      <div class="mode-card">
+        <h4>结构化访谈</h4>
+        <p>严格按预设问题顺序执行，无追问。适合标准化调研。</p>
       </div>
-      <div class="feature-screenshot">
-        <div class="placeholder">数字人展示区域</div>
+      <div class="mode-card">
+        <h4>半结构化访谈</h4>
+        <p>问题顺序灵活，每个话题可追问N次。AI智能判断追问时机。</p>
+      </div>
+      <div class="mode-card">
+        <h4>非结构化访谈</h4>
+        <p>预设目标仅参考，自由探索。适合探索性研究。</p>
       </div>
     </div>
 
-    <div class="feature-row reverse reveal">
+    <div class="feature-row reveal" style="margin-top: 80px;">
       <div class="feature-text">
-        <div class="label">管理端</div>
-        <h3>研究者管理端</h3>
-        <p class="feature-lede">完整的访谈生命周期管理：创建、发布、监控、分析。</p>
-        <p class="feature-detail">访谈卡片直观展示主题、类型、状态，支持草稿/已发布/已结束筛选。会话管理包括创建会话、查看访问码、删除会话，实时追踪进度。</p>
-        <ul>
-          <li>访谈CRUD：创建/编辑/删除/发布</li>
-          <li>会话管理：创建/查看访问码/删除</li>
-          <li>状态筛选：草稿/已发布/已结束</li>
-          <li>进度条显示：直观展示访谈进展</li>
-        </ul>
-      </div>
-      <div class="feature-screenshot">
-        <img src="assets/interview-manage.png" alt="访谈管理界面" loading="lazy">
-      </div>
-    </div>
-
-    <div class="feature-row reveal">
-      <div class="feature-text">
-        <div class="label">Agent Settings</div>
+        <div class="label">智能体</div>
         <h3>智能体全局配置</h3>
         <p class="feature-lede">灵活的AI服务配置：原生服务兑换码激活，或自备API密钥接入主流模型。</p>
-        <p class="feature-detail">支持三种模式：原生模式（兑换码激活，无需API密钥）、预设模式（选择提供商+填写密钥）、进阶模式（自定义URL+模型ID）。多模态、ASR、TTS均可独立配置。</p>
-        <ul>
-          <li>原生服务：兑换码激活，开箱即用</li>
-          <li>多模态：图片识别开关+提供商选择</li>
-          <li>ASR：语音识别（OpenAI Whisper/阿里云）</li>
-          <li>TTS：语音合成+音色选择+试听</li>
-        </ul>
+        <p class="feature-detail">支持三种模式：原生模式、预设模式、进阶模式。多模态、ASR、TTS均可独立配置。</p>
       </div>
       <div class="feature-screenshot">
         <img src="assets/agentsettings.png" alt="智能体配置界面" loading="lazy">
@@ -158,99 +114,10 @@
     </div>
   </section>
 
-  <!-- AI ENGINE SECTION -->
-  <section class="dark-section" id="ai-engine">
-    <div class="section-header reveal">
-      <div class="label">AI 引擎</div>
-      <h2>强大的AI访谈引擎</h2>
-      <p>目标驱动的对话架构，而非机械脚本执行</p>
-    </div>
-
-    <div class="mode-cards reveal">
-      <div class="mode-card">
-        <h4>结构化访谈</h4>
-        <p>严格按预设问题顺序执行，无追问。适合标准化调研，确保每位受访者回答相同问题。</p>
-      </div>
-      <div class="mode-card">
-        <h4>半结构化访谈</h4>
-        <p>问题顺序灵活，每个话题可追问N次。AI根据回答内容智能判断是否追问、追问几次、何时过渡。</p>
-      </div>
-      <div class="mode-card">
-        <h4>非结构化访谈</h4>
-        <p>预设目标仅参考，自由探索M轮。适合探索性研究，让对话自然流动，发现意外洞察。</p>
-      </div>
-    </div>
-
-    <div class="ai-grid reveal">
-      <span class="ai-tag">Anthropic Claude</span>
-      <span class="ai-tag">OpenAI GPT</span>
-      <span class="ai-tag">DeepSeek</span>
-      <span class="ai-tag">Moonshot Kimi</span>
-      <span class="ai-tag">Google Gemini</span>
-      <span class="ai-tag">MiniMax</span>
-      <span class="ai-tag">阿里云百炼</span>
-      <span class="ai-tag">更多接入中…</span>
-    </div>
-    <p class="ai-note">JSON结构化输出 · 完整上下文感知 · 人格化访谈者</p>
-  </section>
-
-  <!-- FEATURE GRID: Settings details -->
-  <section id="settings">
-    <div class="section-header reveal">
-      <div class="label">智能体配置</div>
-      <h2>灵活的全局配置</h2>
-      <p>每一个细节都可定制，适配你的研究需求</p>
-    </div>
-    <div class="feature-grid reveal">
-      <div class="feature-card">
-        <div class="icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
-        </div>
-        <h4>原生服务</h4>
-        <p>兑换码激活，无需API密钥。API密钥仅存后端，前端用户无法接触，安全隔离。</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="12" cy="16" r="2"/></svg>
-        </div>
-        <h4>多模态配置</h4>
-        <p>图片识别开关，支持多提供商选择。原生模式自动使用阿里云百炼，无需额外配置。</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
-        </div>
-        <h4>ASR 语音识别</h4>
-        <p>支持OpenAI Whisper和阿里云百炼。语音转文字，让受访者用说话代替打字。</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
-        </div>
-        <h4>TTS 语音合成</h4>
-        <p>阿里云百炼提供多种音色：Cherry、Serena、Stella、Ethan等，支持试听选择。</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-        </div>
-        <h4>参数调节</h4>
-        <p>Temperature (0-2)、Top P (0-1)、超时时长 (1-300秒)滑块调节，一键重置默认值。</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-        </div>
-        <h4>系统提示词</h4>
-        <p>内置结构化/半结构化/非结构化模板，也可自定义AI人格，编辑系统提示词。</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- RESULTS SECTION -->
+  <!-- RESULTS + DEPLOY (合并) -->
   <section id="results">
     <div class="section-header reveal">
-      <div class="label">结果分析</div>
+      <div class="label">结果与服务</div>
       <h2>完整的访谈结果</h2>
       <p>对话流完整记录，话题覆盖度可视化，AI自动生成摘要</p>
     </div>
@@ -260,74 +127,14 @@
         <div class="label">分析与导出</div>
         <h3>结果分析与导出</h3>
         <p class="feature-lede">每轮问答的时间戳、AI动作、覆盖目标完整记录。</p>
-        <p class="feature-detail">话题覆盖度可视化展示预设目标完成比例，AI自动生成访谈摘要：核心发现、关键洞察、情感态度、建议方向。支持导出为HTML（含样式）和JSON（原始数据）。</p>
-        <ul>
-          <li>对话流完整展示：时间戳 + AI动作</li>
-          <li>话题覆盖度可视化：预设目标完成比例</li>
-          <li>AI生成访谈摘要：核心发现与洞察</li>
-          <li>导出功能：HTML / JSON / Markdown（部分）</li>
-        </ul>
+        <p class="feature-detail">话题覆盖度可视化展示预设目标完成比例，AI自动生成访谈摘要。支持导出为HTML（含样式）和JSON（原始数据）。</p>
       </div>
       <div class="feature-screenshot">
         <div class="placeholder">结果分析展示区域</div>
       </div>
     </div>
-  </section>
 
-  <!-- USER AUTH SECTION -->
-  <section>
-    <div class="section-header reveal">
-      <div class="label">用户体系</div>
-      <h2>双端用户认证</h2>
-      <p>研究者端与受访者端分离，数据安全隔离</p>
-    </div>
-
-    <div class="feature-row reverse reveal">
-      <div class="feature-text">
-        <div class="label">研究者端</div>
-        <h3>研究者端</h3>
-        <p class="feature-lede">完整的用户认证体系：注册、登录、个人资料管理。</p>
-        <p class="feature-detail">用户名+密码注册，支持邀请码验证。JWT认证，Token持久化。个人资料包括显示名称、邮箱、头像，支持PNG/JPG头像上传（限制2MB / 200x200px）。</p>
-        <ul>
-          <li>注册：用户名+密码，支持邀请码验证</li>
-          <li>登录：JWT认证，Token持久化</li>
-          <li>个人资料：显示名称、邮箱、头像</li>
-          <li>头像上传：PNG/JPG，限制2MB / 200x200px</li>
-        </ul>
-      </div>
-      <div class="feature-screenshot">
-        <img src="assets/user-dashboard.png" alt="用户仪表板" loading="lazy">
-      </div>
-    </div>
-
-    <div class="feature-row reveal">
-      <div class="feature-text">
-        <div class="label">受访者端</div>
-        <h3>受访者端</h3>
-        <p class="feature-lede">无需注册，输入访问码即可开始访谈。</p>
-        <p class="feature-detail">受访者资料可选填写：昵称、性别、年龄、头像。访谈进行中实时展示话题覆盖进度，保存后可随时退出。</p>
-        <ul>
-          <li>访问码输入：无需注册，直接进入访谈</li>
-          <li>受访者资料：昵称、性别、年龄、头像（可选）</li>
-          <li>头像上传：PNG/JPG，限制2MB / 200x200px</li>
-          <li>进度展示：访谈进行中显示话题覆盖进度</li>
-        </ul>
-      </div>
-      <div class="feature-screenshot">
-        <img src="assets/profile.png" alt="个人资料" loading="lazy">
-      </div>
-    </div>
-  </section>
-
-  <!-- SECURITY & DEPLOY SECTION -->
-  <section class="dark-section" id="deploy">
-    <div class="section-header reveal">
-      <div class="label">服务模式</div>
-      <h2>网页端服务 · 安全可靠</h2>
-      <p>无需本地部署，直接访问使用；也支持本地部署和定制开发</p>
-    </div>
-
-    <div class="feature-grid reveal">
+    <div class="feature-grid reveal" style="margin-top: 64px;">
       <div class="feature-card">
         <div class="icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
@@ -366,8 +173,8 @@
         <div class="step-content">
           <h4>访问系统</h4>
           <p>网页端直接访问，无需下载安装。<br>
-            <strong>研究者端：</strong> <a href="#" class="web-link" title="5.9晚间上线，敬请期待！">wenling-researcher.com</a><br>
-            <strong>受访者端：</strong> <a href="#" class="web-link" title="5.9晚间上线，敬请期待！">wenling-respondent.com</a>
+            <strong>研究者端：</strong> <a href="#" class="web-link" title="即将上线">wenling-researcher.com</a><br>
+            <strong>受访者端：</strong> <a href="#" class="web-link" title="即将上线">wenling-respondent.com</a>
           </p>
         </div>
       </div>
@@ -387,8 +194,33 @@
       </div>
     </div>
 
-    <div style="text-align: center; margin-top: 48px;" class="reveal">
-      <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 16px;">最简单的方式：<strong style="color: var(--accent);">兑换码激活原生服务</strong>——无需任何API密钥配置，开箱即用</p>
+  </section>
+
+  <!-- PREMIUM HIGHLIGHT: 原生服务兑换码 -->
+  <section id="premium">
+    <div class="premium-card reveal">
+      <div class="premium-star">★</div>
+      <div class="premium-label">核心服务 · 一键激活</div>
+      <h2>原生服务 · 开箱即用</h2>
+      <p class="premium-desc">兑换码激活原生AI服务，<em>无需任何API密钥配置</em>，零门槛立即上手</p>
+      <div class="premium-points">
+        <div class="premium-point">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>无需自备 API 密钥</span>
+        </div>
+        <div class="premium-point">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>兑换码一键激活，开箱即用</span>
+        </div>
+        <div class="premium-point">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>稳定可靠的官方 AI 服务</span>
+        </div>
+      </div>
+      <a href="#contact" class="btn-primary premium-cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        获取兑换码
+      </a>
     </div>
   </section>
 
@@ -400,7 +232,6 @@
       <p>如果问灵对你的研究有帮助，欢迎支持开发者</p>
     </div>
     <div class="reveal" style="display: flex; justify-content: center; gap: 64px; flex-wrap: wrap; max-width: 800px; margin: 0 auto;">
-      <!-- 左：支付宝 -->
       <div style="text-align: center; flex: 1; min-width: 240px;">
         <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">支付宝赞赏</h3>
         <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">扫码支持项目发展</p>
@@ -411,7 +242,6 @@
           </div>
         </div>
       </div>
-      <!-- 右：微信 -->
       <div style="text-align: center; flex: 1; min-width: 240px;">
         <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">微信赞赏</h3>
         <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">请开发者喝杯咖啡</p>
@@ -433,7 +263,6 @@
       <p>添加微信入内测群、获取最新动态、反馈使用体验</p>
     </div>
     <div class="reveal" style="display: flex; justify-content: center; max-width: 400px; margin: 0 auto;">
-      <!-- 联系开发者 -->
       <div style="text-align: center;">
         <h3 style="font-size: 18px; margin-bottom: 6px; color: var(--text);">扫码添加微信</h3>
         <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">加开发者微信，备注「问灵」入内测群</p>
@@ -447,35 +276,53 @@
     </div>
   </section>
 
-  <!-- JOINT PROJECT -->
-  <section id="joint" style="background: var(--bg-warm); padding: 80px 32px;">
+  <!-- SHIJUAN REFERENCE (设计借鉴) -->
+  <section class="shijuan-section" id="shijuan">
     <div class="section-header reveal">
-      <div class="label">联名项目</div>
-      <h2>拾卷 ShiJuan · 智能文献管理</h2>
-      <p>本地优先的智能文献管理工具：阅读 · OCR · 注释 · AI对话 · 跨文献笔记 · 召唤历史名人对话</p>
+      <div class="label">设计借鉴</div>
+      <h2>致敬拾卷 ShiJuan</h2>
+      <p>本网站设计风格借鉴自拾卷官网</p>
     </div>
-    <div class="reveal" style="max-width: 800px; margin: 0 auto; text-align: center;">
-      <p style="font-size: 16px; color: var(--text-secondary); line-height: 1.9; margin-bottom: 24px;">
-        拾卷是本地优先的智能文献管理工具，支持 PDF、HTML、EPUB、DOCX、TXT、Markdown 等多格式文件管理。
-        集成 OCR 识别、AI 深度阅读、跨文献笔记、知识图谱，以及召唤历史名人对话等创新功能。
-        每一句 AI 回答都能溯源到你导入的原文，让阅读过的每一本书都变成你的对话伙伴。
-      </p>
-      <a href="https://easyessay.com.cn" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 8px;">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        访问拾卷官网
-      </a>
+    <div class="shijuan-module reveal">
+      <div class="shijuan-logo-area">
+        <img src="assets/shijuan-logo.png" alt="拾卷 Logo">
+        <div class="shijuan-name">拾卷 ShiJuan</div>
+      </div>
+      <div class="shijuan-info">
+        <h3>AI记忆助手 · 个人知识管理</h3>
+        <p>拾卷是一款面向个人用户的记忆管理工具，融合AI驱动的多模态识别与语义搜索能力，让知识的存储与检索变得简单高效。</p>
+        <a href="https://easyessay.com.cn" target="_blank" class="shijuan-link">
+          访问拾卷官网
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+        </a>
+      </div>
+      <div class="shijuan-preview">
+        <img src="assets/shijuan-shot.png" alt="拾卷产品截图" loading="lazy">
+      </div>
     </div>
   </section>
 
+  <!-- MUSIC PLAYER -->
+  <div class="music-player" id="musicPlayer" title="背景音乐">
+    <button class="music-toggle" id="musicToggle" aria-label="播放/暂停背景音乐">
+      <svg class="music-icon-play" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polygon points="5 3 19 12 5 21 5 3"/>
+      </svg>
+      <svg class="music-icon-pause" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="5" y="4" width="4" height="16"/><rect x="15" y="4" width="4" height="16"/>
+      </svg>
+    </button>
+    <div class="music-waves">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <span class="music-track-name" id="musicTrackName"></span>
+    <audio id="bgmAudio" preload="auto"></audio>
+  </div>
+  
   <!-- FOOTER -->
   <footer>
     <p>问灵 Wenling &copy; 2026 · AI驱动的自动化访谈引擎</p>
-    <p style="margin-top: 6px;">
-      <a href="https://easyessay.com.cn" target="_blank">拾卷 ShiJuan</a> 联名项目
-    </p>
-    <p style="margin-top: 8px; font-size: 12px; color: var(--text-muted);">
-      本网站设计借鉴自 <a href="https://easyessay.com.cn" target="_blank">拾卷官网</a>
-    </p>
+    <p class="footer-copyright">音乐与背景图版权归属米哈游 @原神 与 @Hoyomix 所有</p>
   </footer>
 
   <script src="main.js"></script>
